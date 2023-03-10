@@ -1,20 +1,62 @@
-**shell_permission** 
+**Shell Basics project**
 ===============
+- (0.) Where am I?
 
-1.   -iam_betty.sh changesuser name to betty
-2.   -who_am_i.sh prints id 
-3.   -group.sh shows user groups
-4.   -new_owner.sh changes owner of file hello to betty 
-5.   -empty.sh created empty file called hello
-6.   -excute.sh adds excute permission for owner of hello file 
-7.   -multiple_permission.sh adds excute permission to the owner & group owner read permisssion to other users to the file hello
-8.   -everybody.sh adds excute permission to everyboady to the file hello
-9.   -James_Bond.sh  permission to the file hello owner(no permission at all),group owner((no permission ),otherusers all the permission 
-10.  -John_doe.sh sets the file hello to 753 permission
-11. -mirror_permisssion.sh makes the file hello permission the same as olleh
-12. -directories_permissio.sh adds excute permission to subsideries directories for the owner ,group owner and all others 
-13. -directory_permission.sh creats directory dir_holberton with 751 permission 
-14. -change-group.sh change file owner of hello to holberton 
-15. -change _owner_and_group.sh changes owner to betty group owner to holberton for all fies and directories
-16. -symbolic_link_permission.sh changes owner & group owner to the file _hello to betty 
-17. -if_only.sh changes the owner of the file hello to betty if it is owned by guillaume 
+   - 0-current_working_directory: Bash script that prints the absolute pathname of the current working directory.
+- (1). s in there?
+  - 1-listit: Bash script that displays the contents list of current directory.
+- (2). There is no place like home
+
+    - 2-bring_me_home: Bash script that changes the working directory to the user's home directory.
+- (3). The long format
+
+   -3-listfiles: Bash script that displays current directory contents in long format.
+- (4). Hidden files
+
+    - 4-listmorefiles: Bash script that displays current directory contents, including hidden files, using long format.
+- (5). I love numbers
+
+    - 5-listfilesdigitonly: Bash script that displays current directory contents, including hidden files, as follows:
+Long format.
+User and group ID's displayed numerically.
+- (6). Welcome holberton
+
+     - 6-firstdirectory: Bash script that creates a directory named holberton in the /tmp/ directory.
+- (7). Betty in Holberton
+
+    - 7-movethatfile: Bash script that moves the file betty from /tmp/ to /tmp/holberton.
+- (8). Bye bye Betty
+
+    - 8-firstdelete: Bash script that deletes the file betty in /tmp/holberton.
+- (9). Bye bye Holberton
+
+    - 9-firstdirdeletion: Bash script that deletes the directory holberton in the /tmp directory.
+ - (10). Back to the future
+
+   - 10-back: Bash script that changes the working directory to the previous one.
+ - (11). Lists
+
+   - 11-lists: Bash script that lists all files, including hidden files, in the current directory, parent of the working directory, and /boot directory, using long format.
+- (12). File type
+
+    - 12-file_type: Bash script that prints the type of the file named iamafile located in the /tmp directory.
+- (13). We are symbols, and inhabit symbols
+
+     - 13-symbolic_link: Bash script that creates a symbolic link to /bin/ls, named ls.
+- (14). Copy HTML files
+
+   - 14-copy_html: Bash script that copies all HTML files from the current working directory to the parent of the working directory, but only those that did not exist in the parent directory or were newer than the versions in the parent working directory.
+- 15. s move
+
+   - (15)-lets_move: Bash script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+- (16). Clean Emacs
+
+    - (16)-clean_emacs: Bash script that deletes all files in the current working directory that end with the character ~.
+- .(17) Tree
+
+     -17tree: Bash script that creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory.
+     - 17. Life is a series of commas, not periods
+- 18. Life is a series of commas, not periods
+  - names should end with a slash (/)
+Files and directories starting with a dot (.) should be listed
+The listing should be alpha ordered, except for the directories
