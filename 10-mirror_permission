@@ -1,2 +1,0 @@
-#!/bin/bash
-chmode 664 hello
